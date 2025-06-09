@@ -1,6 +1,5 @@
 <svg width="2000" height="1500" xmlns="http://www.w3.org/2000/svg">
 
-
 <rect width="20" height="200" x="1220" y="580" 
 style="fill:rgb(255,246,142);stroke-width:3;stroke:black" /> <!--perna-->
 
@@ -51,6 +50,7 @@ style="fill:rgb(255,246,142);stroke-width:3;stroke:black" /> <!--perna-->
   <ellipse cx="1000" cy="900" rx="20" ry="10" fill="rgb(162,50,12)" transform="rotate(-19)" />
   <ellipse cx="1000" cy="220" rx="20" ry="10" fill="rgb(162,50,12)" transform="rotate(20)" />  <!--mais bolinhas-->
 
+<g transform="translate(550, 150) scale(0.5)">
     <circle cx="550" cy="500" r="180" stroke="black" stroke-width="5.5" fill="black" /> // circulo principal
 
 
@@ -118,7 +118,7 @@ style="fill:rgb(255,246,142);stroke-width:3;stroke:black" /> <!--perna-->
     <line x1="435" y1="510" x2="664" y2="510" stroke="black" stroke-width="3"/> // linha da pálpebra
 
     <ellipse rx="35" ry="20" cx="550" cy="575" fill="pink" stroke="black" stroke-width="3" /> // nariz
-
+</g>
 
 <g transform="translate(450, 200) scale(0.5)">
   <rect width="120" height="210" x="1600" y="500" rx="20" ry="20" 
