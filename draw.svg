@@ -1,12 +1,15 @@
-<svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="550" cy="500" r="180"  stroke-width="black" fill="orange" /> // principal
-    <ellipse rx="50" ry="100" cx="495" cy="350" fill="orange" stroke-width="3" /> // orelha
-    <ellipse rx="50" ry="100" cx="590" cy="350" fill="orange" stroke-width="3" /> // orelha
-    <circle cx="430" cy="555" r="100"  stroke-width="black" fill="orange"/> // bochecha
-    <circle cx="675" cy="555" r="100"  stroke-width="3" fill="orange"/> // bochecha
-    <circle cx="400" cy="450" r="45"  stroke="black" stroke-width="3" fill="orange"/> // bochecha pequena bolinha
-    <circle cx="500" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
-    <circle cx="600" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
-    <circle cx="550" cy="450" r="130"  stroke="black" stroke-width="3" fill="orange"/> // olho
-    <line x1="550" y1="580" x2="550" y2="320" stroke="black" stroke-width="3"/>
+<svg width="2000" height="1500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
+        <stop offset="40%" stop-color="rgb(250,164,27)" />
+        <stop offset="60%" stop-color="rgb(255,246,142)" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="1000" cy="490" rx="250" ry="120" fill="url(#grad1)" stroke="black" width="50" />
+
+  <ellipse cx="1000" cy="425" rx="220" ry="100" fill="white" stroke="black" width="10"/>
+  <ellipse cx="1000" cy="420" rx="222" ry="100" fill="white" stroke="white" width="10"/>
+
+  <ellipse cx="900" cy="550" rx="30" ry="15" fill="rgb(162,50,12)" />
+  <ellipse cx="1015" cy="605" rx="60" ry="20" fill="rgb(162,50,12)" />
 </svg>
