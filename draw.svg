@@ -1,71 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
+
     <circle cx="550" cy="500" r="180" stroke="black" stroke-width="5.5" fill="black" /> // circulo principal
 
 
@@ -133,4 +67,89 @@
     <line x1="435" y1="510" x2="664" y2="510" stroke="black" stroke-width="3"/> // linha da pálpebra
 
     <ellipse rx="35" ry="20" cx="550" cy="575" fill="pink" stroke="black" stroke-width="3" /> // nariz
+
+  <rect width="120" height="210" x="1600" y="500" rx="20" ry="20" 
+    style="fill:khaki;stroke:black;stroke-width:3;" /> 
+
+  <rect width="90" height="200" x="1615.5" y="500" rx="20" ry="20" 
+    style="fill:black;stroke:black;stroke-width:3;" /> 
+
+  <ellipse rx = "42" ry = "36" cx = "1560" cy = "345"
+    style = "fill: khaki; stroke: black; stroke-width: 3" />       <!-- buchecha esquerda -->
+
+  <ellipse rx = "42" ry = "36" cx = "1782" cy = "355"
+    style = "fill: khaki; stroke: black; stroke-width: 3" />       <!-- buchecha direita -->  
+
+  <ellipse rx="145" ry="95 " cx="1670" cy="430"
+    style="fill:khaki;stroke:black;stroke-width:2.5" />            <!-- rosto -->
+
+  <rect width="52" height="200" x="1600" y="200" rx="20" ry="20" 
+    style="fill:rgb(135, 43, 5);stroke:black;stroke-width:3;"
+    transform="rotate(-13 950 210)" />                             <!-- orelha esquerda (haste)--> 
+
+  <rect width="52" height="200" x="1600" y="200" rx="20" ry="20" 
+    style="fill:rgb(135, 43, 5);stroke:black;stroke-width:3;"
+    transform="rotate(13 2300 560)" />                             <!-- orelha direita (haste)--> 
+
+  <ellipse  rx="80" ry="55" cx="1580" cy="112" 
+    style = "fill:rgb(135, 43, 5); stroke: black; stroke-width: 2.5"                         
+    transform = "rotate(-50 1580 112)" />                          <!-- orelha esquerda (bola) -->
+
+  <ellipse  rx="80" ry="55" cx="1755" cy="110" 
+    style = "fill:rgb(135, 43, 5); stroke: black; stroke-width: 2.5"                         
+    transform = "rotate(-127 1755 115)" />                          <!-- orelha direita (bola) -->  
+
+  <ellipse rx="70" ry="110" cx="1620" cy="300"
+    style="fill:white;stroke:black; stroke-width:3" />            <!-- olho esquerdo-->
+  <ellipse rx="69" ry="110" cx="1724" cy="300"
+    style="fill:white;stroke:black; stroke-width:3" />            <!-- olho direito-->
+
+  <ellipse rx="52.5" ry="32.5" cx="1676" cy="410"
+    style="fill:black;stroke:black; stroke-width:2" />            <!-- nariz -->
+
+  <ellipse rx="5" ry="10" cx="1650" cy="350" 
+    style="fill:black;stroke:black; stroke-width:3" />           <!-- pupila esquerda -->
+
+  <ellipse rx="5" ry="10" cx="1700" cy="350"
+    style="fill:black;stroke:black; stroke-width:3" />           <!-- pupila direita -->
+
+  <circle r="55" cx="1790" cy="655" fill="rgb(240,40,80)" />   <!-- lingua -->
+
+  <rect width="70" height="180" x="1842" y="616" rx="80" ry="80" 
+    style="fill:rgb(240,40,80);stroke:rgb(240,40,80);stroke-width:3;"
+    transform="rotate(112 1842 616)" /> 
+
+    <circle cx="550" cy="500" r="180"  stroke-width="black" fill="orange" /> // principal
+    <ellipse rx="50" ry="100" cx="495" cy="350" fill="orange" stroke-width="3" /> // orelha
+    <ellipse rx="50" ry="100" cx="590" cy="350" fill="orange" stroke-width="3" /> // orelha
+    <circle cx="430" cy="555" r="100"  stroke-width="black" fill="orange"/> // bochecha
+    <circle cx="675" cy="555" r="100"  stroke-width="3" fill="orange"/> // bochecha
+    <circle cx="400" cy="450" r="45"  stroke="black" stroke-width="3" fill="orange"/> // bochecha pequena bolinha
+    <circle cx="500" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
+    <circle cx="600" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
+    <circle cx="550" cy="450" r="130"  stroke="black" stroke-width="3" fill="orange"/> // olho
+    <line x1="550" y1="580" x2="550" y2="320" stroke="black" stroke-width="3"/>
+
+
+    //aqui começa o pé
+    <ellipse rx="145" ry="60" cx="1085" cy="1399" fill="orange" stroke="black" stroke-width="3" /> // pé
+    <circle cx="997" cy="1399" r="55"  stroke="black" stroke-width="3" fill="orange"/> // dedao
+    <ellipse rx="145" ry="60" cx="1344" cy="1175" fill="orange" stroke="black" stroke-width="3" transform="rotate(10)" /> // pé parte cima
+    <ellipse rx="30" ry="60" cx="997" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="165" height="30" x="997" y="1424" rx="20" ry="20" fill="orange" /> //cobertura
+    <ellipse rx="30" ry="60" cx="1027" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="165" height="30" x="997" y="1340" rx="20" ry="20" fill="orange" /> //cobertura
+    <rect width="60" height="400" x="1090" y="945" rx="20" ry="20" fill="orange" stroke="black" stroke-width="3" /> // perna
+    <rect width="80" height="60" x="1087" y="1325" rx="20" ry="20" fill="orange" /> //cobertura canela
+    
+
+    <ellipse rx="145" ry="60" cx="1185" cy="1399" fill="orange" stroke="black" stroke-width="3" /> // pé
+    <circle cx="1093" cy="1404" r="57"  stroke="black" stroke-width="3" fill="orange"/> // dedao
+    <rect width="60" height="435" x="1290" y="945" rx="20" ry="20" fill="orange" stroke="black" stroke-width="3" /> // perna
+    <ellipse rx="145" ry="60" cx="1430" cy="1175" fill="orange" stroke="black" stroke-width="3" transform="rotate(9)" /> // pé parte cima
+    <rect width="80" height="60" x="1268" y="1340" rx="20" ry="20" fill="orange" /> //cobertura canela
+    <ellipse rx="30" ry="60" cx="1097" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <ellipse rx="30" ry="60" cx="1127" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="115" height="60" x="1160" y="1389" rx="20" ry="20" fill="orange" /> //cobertura sola
+    <rect width="50" height="100" x="1111" y="1350" rx="20" ry="20" fill="orange" /> //cobertura dedo
 </svg>
