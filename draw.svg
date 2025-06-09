@@ -12,18 +12,26 @@
 
 
     //aqui começa o pé
-    <ellipse rx="145" ry="60" cx="1085" cy="1390" fill="orange" stroke-width="3" /> // pé
-    <circle cx="997" cy="1399" r="55"  stroke-width="black" fill="orange"/> // dedao
-    <circle cx="1025" cy="1410" r="50"  stroke-width="black" fill="orange"/> // dedo do meio
-    <circle cx="1060" cy="1415" r="50"  stroke-width="black" fill="orange"/> // dedinho
-    <ellipse rx="145" ry="60" cx="1340" cy="1170" fill="orange" stroke-width="3" transform="rotate(10)" /> // pé parte cima
-    //aqui acaba o pé
-    <ellipse rx="145" ry="60" cx="1190" cy="1400" fill="orange" stroke-width="3" /> // pé2
-    <circle cx="1098" cy="1410" r="55"  stroke-width="black" fill="orange"/> // dedao2
-    <circle cx="1104" cy="1410" r="50"  stroke-width="black" fill="orange"/> // dedo do meio2
-    <circle cx="1150" cy="1420" r="50"  stroke-width="black" fill="orange"/> // dedinho2
-    <ellipse rx="145" ry="60" cx="1440" cy="1170" fill="orange" stroke-width="3" transform="rotate(10)" /> // pé parte cima2
-    <rect width="200" height="100" x="1182" y="1435" rx="20" ry="20" fill="white" />
+    <ellipse rx="145" ry="60" cx="1085" cy="1399" fill="orange" stroke="black" stroke-width="3" /> // pé
+    <circle cx="997" cy="1399" r="55"  stroke="black" stroke-width="3" fill="orange"/> // dedao
+    <ellipse rx="145" ry="60" cx="1344" cy="1175" fill="orange" stroke="black" stroke-width="3" transform="rotate(10)" /> // pé parte cima
+    <ellipse rx="30" ry="60" cx="997" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="165" height="30" x="997" y="1424" rx="20" ry="20" fill="orange" /> //cobertura
+    <ellipse rx="30" ry="60" cx="1027" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="165" height="30" x="997" y="1340" rx="20" ry="20" fill="orange" /> //cobertura
+    <rect width="60" height="400" x="1090" y="945" rx="20" ry="20" fill="orange" stroke="black" stroke-width="3" /> // perna
+    <rect width="80" height="60" x="1087" y="1325" rx="20" ry="20" fill="orange" /> //cobertura canela
+    
+
+    <ellipse rx="145" ry="60" cx="1185" cy="1399" fill="orange" stroke="black" stroke-width="3" /> // pé
+    <circle cx="1093" cy="1404" r="57"  stroke="black" stroke-width="3" fill="orange"/> // dedao
+    <rect width="60" height="435" x="1290" y="945" rx="20" ry="20" fill="orange" stroke="black" stroke-width="3" /> // perna
+    <ellipse rx="145" ry="60" cx="1430" cy="1175" fill="orange" stroke="black" stroke-width="3" transform="rotate(9)" /> // pé parte cima
+    <rect width="80" height="60" x="1268" y="1340" rx="20" ry="20" fill="orange" /> //cobertura canela
+    <ellipse rx="30" ry="60" cx="1097" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <ellipse rx="30" ry="60" cx="1127" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
+    <rect width="115" height="60" x="1160" y="1389" rx="20" ry="20" fill="orange" /> //cobertura sola
+    <rect width="50" height="100" x="1111" y="1350" rx="20" ry="20" fill="orange" /> //cobertura dedo
     
 
     
