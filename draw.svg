@@ -1,15 +1,52 @@
 <svg width="2000" height="1500" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="20" height="200" x="1220" y="580" 
+style="fill:rgb(255,246,142);stroke-width:3;stroke:black" /> <!--perna-->
+
+  <ellipse cx="1230" cy="800" rx="40" ry="20"
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:4" />
+  <ellipse cx="880" cy="1150" rx="30" ry="15" transform="rotate(-20)" 
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:4" />
+  <ellipse cx="1250" cy="790" rx="25" ry="30"
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:3" />
+  <ellipse cx="1232" cy="799" rx="39" ry="20"
+  style="fill:rgb(255,246,142)" /> <!--pé um do ody-->
+
+<ellipse cx="1256" cy="800" rx="2" ry="20" fill="black" /> <!--listra do pé do ody-->
+
+<rect width="20" height="200" x="1180" y="580" 
+style="fill:rgb(255,246,142);stroke-width:3;stroke:black" /> <!--perna-->
+
+  <ellipse cx="1200" cy="800" rx="40" ry="20"
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:4" />
+  <ellipse cx="850" cy="1150" rx="30" ry="15" transform="rotate(-20)" 
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:4" />
+  <ellipse cx="1220" cy="790" rx="25" ry="30"
+  style="fill:rgb(255,246,142);stroke:black;stroke-width:3" />
+  <ellipse cx="1202" cy="799" rx="39" ry="20"
+  style="fill:rgb(255,246,142)" /> <!--pé dois do ody-->
+
+<ellipse cx="1216" cy="800" rx="2" ry="20" fill="black" /> <!--listra do pé do ody-->
+
   <defs>
       <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
         <stop offset="40%" stop-color="rgb(250,164,27)" />
         <stop offset="60%" stop-color="rgb(255,246,142)" />
       </linearGradient>
     </defs>
-    <ellipse cx="1000" cy="490" rx="250" ry="120" fill="url(#grad1)" stroke="black" width="50" />
+    <ellipse cx="1050" cy="500" rx="250" ry="120" 
+    style="fill:url(#grad1);stroke:black;stroke-width:3" /> <!--ellipse principal do corpo-->
 
-  <ellipse cx="1000" cy="425" rx="220" ry="100" fill="white" stroke="black" width="10"/>
-  <ellipse cx="1000" cy="420" rx="222" ry="100" fill="white" stroke="white" width="10"/>
+  <ellipse cx="1100" cy="535" rx="30" ry="15" fill="rgb(162,50,12)" />  <!--bolinha para trás da ellipse branca-->
 
-  <ellipse cx="900" cy="550" rx="30" ry="15" fill="rgb(162,50,12)" />
-  <ellipse cx="1015" cy="605" rx="60" ry="20" fill="rgb(162,50,12)" />
+  <ellipse cx="1050" cy="435" rx="220" ry="100"
+  style="fill:white;stroke:black;stroke-width:3" /> 
+  <ellipse cx="1050" cy="430" rx="222" ry="100"
+  style="fill:white;stroke:white;stroke-width:3" /> <!--ellipses brancas-->
+
+  <ellipse cx="950" cy="560" rx="30" ry="15" fill="rgb(162,50,12)" /> <!--bolinha dentro do corpo-->
+
+  <ellipse cx="1065" cy="610" rx="60" ry="7" fill="rgb(162,50,12)" />
+  <ellipse cx="1000" cy="900" rx="20" ry="10" fill="rgb(162,50,12)" transform="rotate(-19)" />
+  <ellipse cx="1000" cy="220" rx="20" ry="10" fill="rgb(162,50,12)" transform="rotate(20)" />  <!--mais bolinhas-->
 </svg>
