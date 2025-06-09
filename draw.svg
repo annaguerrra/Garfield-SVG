@@ -1,4 +1,73 @@
 <svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
+
+    <circle cx="550" cy="500" r="180" stroke="black" stroke-width="5.5" fill="black" /> // circulo principal
+
+
+    <circle cx="650" cy="555" r="100"  stroke="black" stroke-width="6" fill="orange"/> // bochecha
+    <circle cx="450" cy="555" r="100"  stroke="black" stroke-width="6" fill="orange"/> // bochecha
+
+    <circle cx="550" cy="500" r="180" fill="orange" stroke-width="6"/> // circulo para sobrepor a 
+
+    <ellipse rx="50" ry="100" cx="495" cy="350" fill="orange" stroke="black" stroke-width="6" /> // orelha de fora
+    <ellipse rx="50" ry="100" cx="590" cy="350" fill="orange" stroke="black" stroke-width="6" /> // orelha de fora
+
+    <ellipse rx="40" ry="80" cx="600" cy="340" fill="darkorange" stroke="black" stroke-width="5" /> // parte de dentro da orelha
+    <ellipse rx="40" ry="80" cx="484" cy="340" fill="darkorange" stroke="black" stroke-width="5" /> // parte de dentro da orelha
+
+    // linhas de sombra da orelha (esquerda)
+    <line x1="480" y1="260" x2="453" y2="305" stroke="black" stroke-width="5"/>
+    <line x1="480" y1="260" x2="465" y2="315" stroke="black" stroke-width="5"/>
+    <line x1="480" y1="260" x2="485" y2="300" stroke="black" stroke-width="5"/>
+    <line x1="480" y1="260" x2="500" y2="315" stroke="black" stroke-width="5"/>
+    <line x1="480" y1="260" x2="510" y2="300" stroke="black" stroke-width="5"/>
+
+    // linhas de sombra da orelha (direita)
+    <line x1="605" y1="260" x2="575" y2="305" stroke="black" stroke-width="5"/>
+    <line x1="605" y1="260" x2="584" y2="315" stroke="black" stroke-width="5"/>
+    <line x1="605" y1="260" x2="601" y2="300" stroke="black" stroke-width="5"/>
+    <line x1="605" y1="260" x2="616" y2="315" stroke="black" stroke-width="5"/>
+    <line x1="605" y1="260" x2="625" y2="300" stroke="black" stroke-width="5"/>
+
+    <circle cx="400" cy="460" r="45"  stroke="black" stroke-width="5" fill="#fbe5a3"/> // bochecha
+    <circle cx="700" cy="460" r="45"  stroke="black" stroke-width="5" fill="#fbe5a3"/> // bochecha
+
+    // Detalhes da bochecha pequena (esquerda)
+    <circle cx="400" cy="430" r="3.26"  stroke="black" stroke-width="3" fill="black"/> 
+    <circle cx="375" cy="450" r="3.5"  stroke="black" stroke-width="3" fill="black"/>
+    <circle cx="375" cy="480" r="3.8"  stroke="black" stroke-width="3" fill="black"/>
+
+    // Detalhes da bochecha pequena (direita)
+    <circle cx="700" cy="430" r="3.2"  stroke="black" stroke-width="3" fill="black"/> 
+    <circle cx="730" cy="450" r="3.6"  stroke="black" stroke-width="3" fill="black"/> 
+    <circle cx="720" cy="480" r="3.7"  stroke="black" stroke-width="3" fill="black"/> 
+
+    <circle cx="500" cy="500" r="100"  stroke="black" stroke-width="4" fill="#fbe5a3"/> //bochecha pequena
+    <circle cx="600" cy="500" r="100"  stroke="black" stroke-width="4" fill="#fbe5a3"/> //bochecha pequena
+
+    // linhas para esconder o contorno das bochechas
+    <polyline points="740,470 640,470 640 390" fill="#fbe5a3" />
+    <polyline points="390,470 450,470 450 390" fill="#fbe5a3" />
+
+    <circle cx="550" cy="450" r="130"  stroke="black" stroke-width="3" fill="orange"/> // olho
+
+    <polyline points="430,510 665,510 598 570 502 570" fill="white" />
+
+    <ellipse transform="rotate(127 480 545)" rx="10" ry="50" cx="480" cy="545" fill="white"/>
+
+    <ellipse transform="rotate(-127 620 545)" rx="10" ry="50" cx="620" cy="545" fill="white"/>
+    
+    <circle cx="515" cy="515" r="20"  stroke="black" stroke-width="3" fill="black"/>
+
+    <circle cx="585" cy="515" r="20"  stroke="black" stroke-width="3" fill="black"/>
+
+    <polyline points="475,508 665,508 450 400" fill="orange" />
+
+    <line x1="550" y1="580" x2="550" y2="340" stroke="black" stroke-width="3"/> // linha do meio do olho
+
+    <line x1="435" y1="510" x2="664" y2="510" stroke="black" stroke-width="3"/> // linha da pálpebra
+
+    <ellipse rx="35" ry="20" cx="550" cy="575" fill="pink" stroke="black" stroke-width="3" /> // nariz
+
   <rect width="120" height="210" x="1600" y="500" rx="20" ry="20" 
     style="fill:khaki;stroke:black;stroke-width:3;" /> 
 
@@ -83,5 +152,4 @@
     <ellipse rx="30" ry="60" cx="1127" cy="1406" fill="orange" stroke="black" stroke-width="3"/>
     <rect width="115" height="60" x="1160" y="1389" rx="20" ry="20" fill="orange" /> //cobertura sola
     <rect width="50" height="100" x="1111" y="1350" rx="20" ry="20" fill="orange" /> //cobertura dedo
-   
 </svg>
