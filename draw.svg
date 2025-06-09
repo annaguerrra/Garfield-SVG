@@ -118,19 +118,6 @@
   <rect width="70" height="180" x="1842" y="616" rx="80" ry="80" 
     style="fill:rgb(240,40,80);stroke:rgb(240,40,80);stroke-width:3;"
     transform="rotate(112 1842 616)" /> 
-
-    <circle cx="550" cy="500" r="180"  stroke-width="black" fill="orange" /> // principal
-    <ellipse rx="50" ry="100" cx="495" cy="350" fill="orange" stroke-width="3" /> // orelha
-    <ellipse rx="50" ry="100" cx="590" cy="350" fill="orange" stroke-width="3" /> // orelha
-    <circle cx="430" cy="555" r="100"  stroke-width="black" fill="orange"/> // bochecha
-    <circle cx="675" cy="555" r="100"  stroke-width="3" fill="orange"/> // bochecha
-    <circle cx="400" cy="450" r="45"  stroke="black" stroke-width="3" fill="orange"/> // bochecha pequena bolinha
-    <circle cx="500" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
-    <circle cx="600" cy="500" r="100"  stroke="black" stroke-width="3" fill="#fbe5a3"/> //bochecha pequena
-    <circle cx="550" cy="450" r="130"  stroke="black" stroke-width="3" fill="orange"/> // olho
-    <line x1="550" y1="580" x2="550" y2="320" stroke="black" stroke-width="3"/>
-
-
     //aqui começa o pé
     <ellipse rx="145" ry="60" cx="1085" cy="1399" fill="orange" stroke="black" stroke-width="3" /> // pé
     <circle cx="997" cy="1399" r="55"  stroke="black" stroke-width="3" fill="orange"/> // dedao
